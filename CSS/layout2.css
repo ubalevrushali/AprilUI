@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+}
+.container
+{
+    width: 80%;
+    min-height: 100px;
+    margin: auto;
+    border: 1px solid #000;
+}
+.main-heder-div
+{
+      width: 100%;
+      height: 60px;
+}
+.main-heder-div .logo
+{
+    width: 49%;
+    height: 60px;
+    background-color:#653C42;
+    float: left;
+    border-radius: 15px;
+}
+.logo h1
+{
+    color: white;
+}
+.main-heder-div .menu
+{
+    width: 50%;
+    height: 60px;
+    background-color: #653C42;
+    float: right;
+    border-radius: 15px;
+    padding-top: 15px;
+}
+.menu a
+{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+a:hover
+{
+   /* background-color:#E9E0C8;*/
+    color: #EAC962;
+}
+.slider
+{
+    width: 100%;
+    min-height: 300px;
+    margin-top: 5px;
+}
+.slider img
+{
+    width: 100%;
+    height: 100%;
+}
+.main-con
+{
+    width: 100%;
+    min-height: 300px;
+}
+.main-con .sidebar
+{
+    width: 20%;
+    min-height: 500px;
+    background-color: #E9E0C8;
+    float: left;
+}
+.main-con .con
+{
+    width: 78%;
+    min-height: 300px;
+    float: right;
+    background-color: #947F43;
+}
+.hrader-text h2
+{
+    padding: 10px;
+    color: white;
+}
+
+.con .answer
+{
+    text-align: justify;
+    padding: 10px;
+}
+.answer p
+{
+    text-align: justify;
+    color: white;
+}
+.footer
+{
+    width: 100%;
+    height: 60px;
+    background-color: #653C42;
+    color: white;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+.footer h3{
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
